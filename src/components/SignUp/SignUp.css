@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sen:wght@400..800&display=swap');
+
+
+.card {
+    background-color: #151515;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23a91d3a' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    border-color: #a91d3a;
+    box-shadow: 0 0 10px #a91d3a;
+    color: #eeeeee;
+}
+
+form {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.h1 {
+    font-family: Playfair Display, sans-serif;
+}
+
+.submit {
+    background: #a91d3a;
+    box-shadow: 0px 2px 5px #eeeeee;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background: #151515;
+    box-shadow: 0px 3px 5px #a91d3a;
+    color: #a91d3a;
+}
+
+.signup:hover, .forget:hover {
+    color: #a91d3a;
+}
+
+.error {
+    color: #ee5473; /* Set the color for error messages */
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
