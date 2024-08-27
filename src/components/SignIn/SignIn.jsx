@@ -23,7 +23,8 @@ class SignIn extends React.Component {
     onSubmitSignIn = (e) => {
         e.preventDefault(); 
         
-        fetch('http://localhost:3000/signin', {
+        fetch('https://git.heroku.com/peaceful-reef-16481.git:3000/signin', {
+            mode: 'no-cors',
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

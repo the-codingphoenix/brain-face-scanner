@@ -102,7 +102,8 @@ function App() {
   const onSubmit = () => {
     setDisplayImage(true);
   
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://git.heroku.com/peaceful-reef-16481.git:3000/imageurl', {
+      mode: 'no-cors',
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -116,7 +117,8 @@ function App() {
         displayFaceBox(faceData);
 
         //update user entries on the server
-        fetch('http://localhost:3000/image', {
+        fetch('https://git.heroku.com/peaceful-reef-16481.git:3000/image', {
+          mode: 'no-cors',
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
