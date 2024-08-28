@@ -103,7 +103,6 @@ function App() {
     setDisplayImage(true);
   
     fetch('https://git.heroku.com/peaceful-reef-16481.git:3000/imageurl', {
-      mode: 'no-cors',
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -118,7 +117,6 @@ function App() {
 
         //update user entries on the server
         fetch('https://git.heroku.com/peaceful-reef-16481.git:3000/image', {
-          mode: 'no-cors',
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
