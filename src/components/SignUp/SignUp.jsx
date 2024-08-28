@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import './SignUp.css';
+
 class SignUp extends React.Component {
     constructor(props) {
         super(props);

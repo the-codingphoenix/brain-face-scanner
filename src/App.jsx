@@ -4,11 +4,11 @@ import Navigation from './components/Navigation/Navigation'
 import Logo from './components/Logo/Logo'
 import Rank from './components/Rank/Rank'
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm'
-import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
+import FaceRecognition from './components/FaceRecognition/FaceRecognition'
+import SignIn from './components/SignIn/SignIn'
+import SignUp from './components/SignUp/SignUp'
 import Particles from 'react-tsparticles'
 import { loadSlim } from 'tsparticles-slim'      
-import SignIn from "./components/SignIn/SignIn";
-import SignUp from "./components/Signup/SignUp.jsx";
 
 const initialState = {
   id: '',
