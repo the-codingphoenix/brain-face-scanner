@@ -8,7 +8,7 @@ import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Particles from 'react-tsparticles'
 import { loadSlim } from 'tsparticles-slim'      
 import SignIn from "./components/SignIn/SignIn";
-import SignUp from "./components/Signup/SignUp";
+import SignUp from "./components/Signup/SignUp.jsx";
 
 const initialState = {
   id: '',
