@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "serve -s build",
+    "vite": "vite",
+    "start": "serve -s dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
